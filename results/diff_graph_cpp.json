@@ -1,0 +1,32 @@
+{
+  "generated": "2026-11-15T19:26:19",
+  "engine": "cpp",
+  "graphs": [
+    {
+      "task": "add2",
+      "file": "add2.json",
+      "nodes": 12,
+      "edges": 16,
+      "accuracy_examples": 1.000000,
+      "accuracy_bits": 1.000000,
+      "correct_rows": 16,
+      "total_rows": 16,
+      "boolean_domain": true,
+      "examples_per_sec": 46650797,
+      "solved": true
+    },
+    {
+      "task": "parity4",
+      "file": "parity4.json",
+      "nodes": 7,
+      "edges": 6,
+      "accuracy_examples": 1.000000,
+      "accuracy_bits": 1.000000,
+      "correct_rows": 16,
+      "total_rows": 16,
+      "boolean_domain": true,
+      "examples_per_sec": 80679678,
+      "solved": true
+    }
+  ]
+}

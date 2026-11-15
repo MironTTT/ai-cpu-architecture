@@ -1,0 +1,61 @@
+{
+  "engine": "torch-diffgraph",
+  "torch_version": "2.15.0+cpu",
+  "config": {
+    "n_nodes": 8,
+    "steps": 3000,
+    "restarts": 8,
+    "lr": 0.15,
+    "hard_start": 0.3
+  },
+  "tasks": {
+    "add2": {
+      "task": "add2",
+      "accuracy_examples": 1.0,
+      "accuracy_bits": 1.0,
+      "accuracy_gradient": 0.9375,
+      "refined": true,
+      "boolean_domain": true,
+      "bit_exact": true,
+      "nodes": 8,
+      "edges": 16,
+      "ops": [
+        "AND",
+        "OR",
+        "AND",
+        "XOR",
+        "XOR",
+        "XOR",
+        "AND",
+        "OR"
+      ],
+      "seed": 0,
+      "restarts_used": 8,
+      "seconds_to_best": 3.083,
+      "export": "E:\\PythonProjects\\ai-cpu-architecture\\results\\graphs\\add2.json",
+      "truth_table_ok": true
+    },
+    "parity4": {
+      "task": "parity4",
+      "accuracy_examples": 1.0,
+      "accuracy_bits": 1.0,
+      "accuracy_gradient": null,
+      "refined": false,
+      "boolean_domain": true,
+      "bit_exact": true,
+      "nodes": 3,
+      "edges": 6,
+      "ops": [
+        "XOR",
+        "XOR",
+        "XOR"
+      ],
+      "seed": 0,
+      "restarts_used": 1,
+      "seconds_to_best": 1.242,
+      "export": "E:\\PythonProjects\\ai-cpu-architecture\\results\\graphs\\parity4.json",
+      "truth_table_ok": true
+    }
+  },
+  "seconds": 95.696
+}

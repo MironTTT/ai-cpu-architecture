@@ -1,0 +1,46 @@
+{
+  "format": "diffgraph",
+  "version": 1,
+  "task": "parity4",
+  "n_inputs": 4,
+  "n_outputs": 1,
+  "nodes": [
+    {
+      "op": "INPUT"
+    },
+    {
+      "op": "INPUT"
+    },
+    {
+      "op": "INPUT"
+    },
+    {
+      "op": "INPUT"
+    },
+    {
+      "op": "XOR",
+      "in": [
+        0,
+        3
+      ]
+    },
+    {
+      "op": "XOR",
+      "in": [
+        1,
+        2
+      ]
+    },
+    {
+      "op": "XOR",
+      "in": [
+        5,
+        4
+      ]
+    }
+  ],
+  "outputs": [
+    6
+  ],
+  "meta": {}
+}
